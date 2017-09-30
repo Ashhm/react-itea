@@ -1,0 +1,34 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "dev": "webpack-dev-server"
+  },
+  "babel": {
+    "presets": ["env", "react"]
+  },
+  "dependencies": {
+    "less": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-polyfill": "*",
+    "babel-preset-react": "*",
+    "babel-preset-env": "*",
+    "css-loader": "*",
+    "style-loader": "*",
+    "less-loader": "*",
+    "react-hot-loader": "*",
+    "react-loader": "*",
+    "webpack": "*",
+    "html-webpack-plugin": "*",
+    "webpack-dev-server": "*"
+  }
+}
