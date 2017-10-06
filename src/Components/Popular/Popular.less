@@ -1,0 +1,37 @@
+@import '../styles.less';
+.Main__header {
+  display: flex;
+  justify-content: space-between;
+  background-color: @main-gray;
+  border-radius: @border-radius;
+}
+
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+
+  & li {
+    margin: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    cursor: pointer;
+    list-style-type: none;
+    color: #ffffff;
+    &:hover{
+      transform: scale(1.03);
+      transition: @transition;
+    }
+    &:active{
+      transform: scale(.97);
+      transition: @transition;
+    }
+    &.selected {
+      color: @light-red;
+
+    }
+}
+
+}

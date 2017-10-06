@@ -1,0 +1,35 @@
+@main-gray: #4e5665;
+@light-red: #ff4e3e;
+@main-blue: #4267b2;
+@transition: all 100ms ease-in-out;
+@border-radius: 2px;
+@border-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+.button {
+  border: 0 none;
+  border-radius: @border-radius;
+  padding: 4px 7px;
+  cursor: pointer;
+  line-height: 1.3;
+  font-weight: 200;
+  transition: all 100ms ease-in-out;
+  background: @main-blue;
+  &:hover {
+    opacity: .9;
+    transition: @transition;
+  }
+
+  &:active {
+    opacity: .75;
+    transform: scale(.97);
+    transition: @transition;
+  }
+
+  &:focus {
+    outline: 0;
+  }
+  & a {
+    text-decoration: none;
+    color: white;
+  }
+}

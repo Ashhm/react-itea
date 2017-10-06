@@ -4,7 +4,6 @@
   "main": "app.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open",
     "dev": "webpack-dev-server"
   },
   "babel": {
@@ -13,7 +12,9 @@
   "dependencies": {
     "less": "*",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "prop-types": "*",
+    "react-masonry-component": "*"
   },
   "devDependencies": {
     "babel-cli": "*",
