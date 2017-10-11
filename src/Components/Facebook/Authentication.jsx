@@ -4,38 +4,40 @@ import FacebookActions from '../../Actions/FacebookActions';
 import './Authentication.less';
 
 class FacebookAuth extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.handleLogin = this.handleLogin.bind(this);
     this.handleLogout = this.handleLogout.bind(this);
-    this.__onChange = this.__onChange.bind(this);
     this.state = {
       status: '',
-      name: ''
-    };
+      user: ''
+    }
   }
 
-  componentDidMount() {
-    FacebookActions.init(this.__onChange);
+  componentWillMount() {
+   FacebookActions.getLoginState()
+     .then(res => {
+       this.setState(res);
+     });
   }
 
   handleLogin() {
-    FacebookActions.login(this.__onChange);
+    FacebookActions.login()
+      .then(res => {
+        this.setState(res);
+      });
   }
 
   handleLogout() {
-    FacebookActions.logout(this.__onChange);
+    FacebookActions.logout()
+      .then(res => {
+        this.setState(res);
+      });
   }
 
-  //this function gonna change state of Authentication status
-  __onChange(data) {
-    console.log(this.state);
-    this.setState(data);
-  };
-
   render() {
-    const text = (this.state.status === 'connected' && this.state.name) ?
-      `Thanks for logging in, ${this.state.name}`:'Please log into this app';
+    const text = (this.state.status === 'connected' && this.state.user) ?
+      `Thanks for logging in, ${this.state.user}` : 'Please log into this app';
     return (
       <div className='Main___auth'>
         <span>{text}</span>

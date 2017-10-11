@@ -10,10 +10,13 @@
     "presets": ["env", "react"]
   },
   "dependencies": {
+    "material-ui": "*",
     "less": "*",
     "react": "*",
     "react-dom": "*",
+    "react-router-dom": "*",
     "prop-types": "*",
+    "axios": "*",
     "react-masonry-component": "*"
   },
   "devDependencies": {

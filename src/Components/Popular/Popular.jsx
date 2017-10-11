@@ -1,11 +1,9 @@
 import React from 'react';
-import Selected from './Selected'
-import FacebookAuth from '../Facebook/Authentication';
-import PropTypes from 'prop-types';
 
+import facebookApi from '../../utils/api';
 
-import './Popular.less';
-import PopularGrid from "./PopularGrid";
+import Pages from './Pages'
+import PopularGrid from "./Grid/PopularGrid";
 
 class Popular extends React.Component {
   constructor(props) {
@@ -16,6 +14,10 @@ class Popular extends React.Component {
     this.handleLanguageChange = this.handleLanguageChange.bind(this);
   }
 
+  componentDidMount() {
+    //console.log(facebookApi.getPage());
+  }
+
   handleLanguageChange(value) {
     this.setState({
       selectedLanguage: value
@@ -23,16 +25,16 @@ class Popular extends React.Component {
   }
 
   render() {
+    console.log(this.state);
     return (
       <div>
-      <div className='Main__header'>
-        <Selected
-          selectedLanguage={this.state.selectedLanguage}
+        <Pages
+          value={this.state.selectedLanguage}
           onSelect={this.handleLanguageChange}
-        />
-      <FacebookAuth />
-      </div>
-        <PopularGrid />
+        >
+
+        </Pages>
+        <PopularGrid/>
       </div>
     )
   }

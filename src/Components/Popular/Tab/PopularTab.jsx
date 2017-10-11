@@ -5,8 +5,8 @@ class PopularTab extends React.Component {
   render() {
     return (
       <div className='PopularTab'>
-        <span>{this.props.title}</span>
         <img src={this.props.picture}/>
+        <span>{this.props.title}</span>
         {this.props.children}
       </div>
     )
