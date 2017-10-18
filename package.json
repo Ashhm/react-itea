@@ -7,7 +7,7 @@
     "dev": "webpack-dev-server"
   },
   "babel": {
-    "presets": ["env", "react"]
+    "presets": ["env", "react", "stage-0"]
   },
   "dependencies": {
     "material-ui": "*",
@@ -26,6 +26,7 @@
     "babel-polyfill": "*",
     "babel-preset-react": "*",
     "babel-preset-env": "*",
+    "babel-preset-stage-0": "*",
     "css-loader": "*",
     "style-loader": "*",
     "less-loader": "*",

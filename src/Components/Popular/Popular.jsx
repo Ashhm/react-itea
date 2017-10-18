@@ -1,40 +1,83 @@
 import React from 'react';
+import FacebookActions from '../../Actions/FacebookActions';
 
-import facebookApi from '../../utils/api';
-
-import Pages from './Pages'
-import PopularGrid from "./Grid/PopularGrid";
+import PopularHeader from './PopularHeader';
+import PopularGrid from './Grid/PopularGrid';
 
 class Popular extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedLanguage: 'All'
+      selected: 'devua',
+      loading: true,
+      error: false,
+      data: []
     };
-    this.handleLanguageChange = this.handleLanguageChange.bind(this);
+
+    this.handlePageChange = this.handlePageChange.bind(this);
+    this.handleDataChange = this.handleDataChange.bind(this);
   }
 
   componentDidMount() {
-    //console.log(facebookApi.getPage());
+    this.handleDataChange(this.state.selected);
   }
 
-  handleLanguageChange(value) {
-    this.setState({
-      selectedLanguage: value
+  handlePageChange(selected) {
+    this.setState(() => {
+      console.log(this.state);
+      return {selected};
     });
+
+    this.handleDataChange(selected);
   }
+
+  handleDataChange(page) {
+    this.setState(()=> {
+      console.log('loading state');
+      return {
+        loading: true,
+        data: [],
+        error: false
+      }
+    });
+
+    FacebookActions.fetchData(page)
+      .then(({data}) => {
+        this.setState(() => {
+          console.log('fetching state');
+          return {
+            loading: false,
+            error: false,
+            data
+          }
+        })
+      })
+      .catch(err => {
+        this.set.state(() => {
+          return {
+            loading: false,
+            error: true,
+            data: []
+          }
+        })
+      })
+  }
+
 
   render() {
     console.log(this.state);
+    const {selected, data, loading} = this.state;
     return (
       <div>
-        <Pages
-          value={this.state.selectedLanguage}
-          onSelect={this.handleLanguageChange}
-        >
-
-        </Pages>
-        <PopularGrid/>
+        <PopularHeader
+          value={selected}
+          onChange={this.handlePageChange}
+        />
+        <PopularGrid
+          value={selected}
+          data={data}
+          loading={loading}
+        />
       </div>
     )
   }

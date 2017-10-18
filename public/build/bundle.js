@@ -30671,14 +30671,14 @@ var Popular = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Popular.__proto__ || Object.getPrototypeOf(Popular)).call(this, props));
 
     _this.state = {
-      selectedLanguage: 'All'
+      selected: 'All'
     };
     _this.handleLanguageChange = _this.handleLanguageChange.bind(_this);
     return _this;
   }
 
   _createClass(Popular, [{
-    key: 'handleLanguageChange',
+    key: 'handlePageChange',
     value: function handleLanguageChange(value) {
       this.setState({
         selectedLanguage: value
@@ -30691,8 +30691,8 @@ var Popular = function (_React$Component) {
         'div',
         { className: 'Main__header' },
         _react2.default.createElement(_Selected2.default, {
-          selectedLanguage: this.state.selectedLanguage,
-          onSelect: this.handleLanguageChange
+          selectedLanguage: this.state.selected,
+          onSelect: this.handlePageChange
         }),
         _react2.default.createElement(_Authentication2.default, null)
       );
@@ -30738,7 +30738,7 @@ var Selected = function Selected(props) {
         'li',
         {
           key: index,
-          className: props.selectedLanguage === item ? 'selected' : null,
+          className: props.selected === item ? 'selected' : null,
           onClick: props.onSelect.bind(null, item)
         },
         item
@@ -30748,7 +30748,7 @@ var Selected = function Selected(props) {
 };
 
 Selected.PropTypes = {
-  selectedLanguage: _propTypes2.default.string.isRequired,
+  selected: _propTypes2.default.string.isRequired,
   onSelect: _propTypes2.default.func.isRequired
 };
 
