@@ -76,9 +76,12 @@ export const fetchDataFB = (query) => {
   return new Promise((resolve, reject) => {
     if (!initialized)
       reject(error);
-    FB.api(query, res => {
-      resolve(res);
-    });
+    FB.api(
+      query.url,
+      query.method,
+      query.params,
+      res => {
+        resolve(res);
+      });
   })
 };
-

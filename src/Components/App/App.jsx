@@ -5,6 +5,7 @@ import Popular from '../Popular/Popular';
 import Navtab from '../Navtab/Navtab';
 import Home from '../Home/Home';
 import Battle from '../Battle/Battle';
+import Result from '../Result/Result';
 
 import './App.less';
 import {indigo500, indigo100, redA700} from 'material-ui/styles/colors';
@@ -38,6 +39,7 @@ class App extends React.Component {
               <Route exact path='/' component={Home}/>
               <Route path='/battle' component={Battle}/>
               <Route path='/popular' component={Popular}/>
+              <Route path='/result' component={Result}/>
               <Route render={() => (<div>This page not found.</div>)}/>
             </Switch>
           </div>

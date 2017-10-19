@@ -3,7 +3,7 @@ import {Tabs, Tab} from 'material-ui/Tabs';
 import PropTypes from 'prop-types';
 
 class PopularHeader extends React.Component {
-  static propsTypes = {
+  static propTypes = {
     value: PropTypes.string.isRequired,
     onChange: PropTypes.func.isRequired
   };

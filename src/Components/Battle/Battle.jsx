@@ -1,7 +1,8 @@
 import React from 'react';
-import UserContainer from '../PlayerContainer/PlayerContainer';
+import PlayerContainer from '../PlayerContainer/PlayerContainer';
 import UserSearch from './PlayerSearch';
 import RaisedButton from 'material-ui/RaisedButton';
+import FlatButton from 'material-ui/FlatButton';
 import FacebookActions from '../../Actions/FacebookActions';
 import {Link} from 'react-router-dom';
 
@@ -61,22 +62,26 @@ class Battle extends React.Component {
   }
 
   render() {
-    console.log(this.state);
     const {playerOne, playerTwo} = this.state;
     return (
       <div>
         <div className='Battle___main'>
 
           {playerOne ?
-            <UserContainer
+            <PlayerContainer
               id='playerOne'
               label='Player One'
               name={playerOne.name}
               src={playerOne.avatar}
               url={playerOne.link}
               loading={this.state.playerOneIsLoading}
-              onClick={this.handlePlayerReset}
-            /> :
+            >
+              <FlatButton
+                label='Reset'
+                secondary={true}
+                onClick={this.handlePlayerReset.bind(null,'playerOne')}
+              />
+            </PlayerContainer> :
             <UserSearch
               id='playerOne'
               label='Player one'
@@ -85,15 +90,20 @@ class Battle extends React.Component {
           }
 
           {playerTwo ?
-            <UserContainer
+            <PlayerContainer
               id='playerTwo'
               label='Player two'
               name={playerTwo.name}
               src={playerTwo.avatar}
               url={playerTwo.link}
               loading={this.state.playerTwoIsLoading}
-              onClick={this.handlePlayerReset}
-            /> :
+            >
+              <FlatButton
+                label='Reset'
+                secondary={true}
+                onClick={this.handlePlayerReset.bind(null, 'playerTwo')}
+              />
+            </PlayerContainer> :
             <UserSearch
               id='playerTwo'
               label='Player two'
@@ -107,7 +117,8 @@ class Battle extends React.Component {
           <Link
             to={{
               pathname: '/result',
-              search: `?playerOneName=${playerOne.name}&playerTwoName=${playerTwo.name}`
+              search: `?playerOneName=${playerOne.name}&playerTwoName=${playerTwo.name}`,
+              params: [playerOne, playerTwo]
             }}
           >
             <RaisedButton
