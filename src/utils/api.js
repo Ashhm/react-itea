@@ -1,5 +1,5 @@
 let initialized = false;
-const error = new Error('Facebook SDK not initialized');
+const error = new Error('Authentication SDK not initialized');
 
 export const initFB = () => {
   return new Promise((resolve, reject) => {

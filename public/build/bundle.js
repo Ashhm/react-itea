@@ -1360,7 +1360,7 @@ module.exports = function (key) {
 
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -1606,7 +1606,7 @@ if (process.env.NODE_ENV === 'production') {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -2245,7 +2245,7 @@ module.exports = function (COLLECTION) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -2269,7 +2269,7 @@ module.exports = emptyObject;
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright (c) 2014-present, Facebook, Inc.
+ * Copyright (c) 2014-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -3678,7 +3678,7 @@ exports[DATA_VIEW] = $DataView;
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -3745,7 +3745,7 @@ module.exports = checkPropTypes;
 
 "use strict";
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -3764,7 +3764,7 @@ module.exports = ReactPropTypesSecret;
 
 "use strict";
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -3802,7 +3802,7 @@ module.exports = ExecutionEnvironment;
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -4802,7 +4802,7 @@ module.exports = Math.scale || function scale(x, inLow, inHigh, outLow, outHigh)
 /* WEBPACK VAR INJECTION */(function(process) {
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -4881,7 +4881,7 @@ module.exports = EventListener;
 
 "use strict";
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -4954,7 +4954,7 @@ module.exports = shallowEqual;
 
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -4995,7 +4995,7 @@ module.exports = containsNode;
 
 "use strict";
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -5027,7 +5027,7 @@ module.exports = focusNode;
 
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -9607,7 +9607,7 @@ for (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/**
- * Copyright (c) 2014, Facebook, Inc.
+ * Copyright (c) 2014, Authentication, Inc.
  * All rights reserved.
  *
  * This source code is licensed under the BSD-style license found in the
@@ -10412,7 +10412,7 @@ _reactDom2.default.render(_react2.default.createElement(_App2.default, null), do
  React v16.0.0
  react.production.min.js
 
- Copyright (c) 2013-present, Facebook, Inc.
+ Copyright (c) 2013-present, Authentication, Inc.
 
  This source code is licensed under the MIT license found in the
  LICENSE file in the root directory of this source tree.
@@ -10441,7 +10441,7 @@ module.exports={Children:{map:S.map,forEach:S.forEach,count:S.count,toArray:S.to
 /* WEBPACK VAR INJECTION */(function(process) {/** @license React v16.0.0
  * react.development.js
  *
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -10462,7 +10462,7 @@ var emptyFunction = __webpack_require__(32);
 var checkPropTypes = __webpack_require__(98);
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -10553,7 +10553,7 @@ var ReactNoopUpdateQueue = {
 var ReactNoopUpdateQueue_1 = ReactNoopUpdateQueue;
 
 /**
- * Copyright (c) 2014-present, Facebook, Inc.
+ * Copyright (c) 2014-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -10748,7 +10748,7 @@ var ReactBaseClasses = {
 };
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -11098,7 +11098,7 @@ ReactElement.isValidElement = function (object) {
 var ReactElement_1 = ReactElement;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -11432,7 +11432,7 @@ var ReactChildren = {
 var ReactChildren_1 = ReactChildren;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -11464,7 +11464,7 @@ function onlyChild(children) {
 var onlyChild_1 = onlyChild;
 
 /**
- * Copyright (c) 2016-present, Facebook, Inc.
+ * Copyright (c) 2016-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -11478,7 +11478,7 @@ var describeComponentFrame$1 = function (name, source, ownerName) {
 };
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -12194,7 +12194,7 @@ if (process.env.NODE_ENV === 'production') {
  React v16.0.0
  react-dom.production.min.js
 
- Copyright (c) 2013-present, Facebook, Inc.
+ Copyright (c) 2013-present, Authentication, Inc.
 
  This source code is licensed under the MIT license found in the
  LICENSE file in the root directory of this source tree.
@@ -12456,7 +12456,7 @@ unstable_deferredUpdates:Xj.deferredUpdates,flushSync:Xj.flushSync,__SECRET_INTE
 
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -12484,7 +12484,7 @@ module.exports = isTextNode;
 
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -12512,7 +12512,7 @@ module.exports = isNode;
 /* WEBPACK VAR INJECTION */(function(process) {/** @license React v16.0.0
  * react-dom.development.js
  *
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -12544,7 +12544,7 @@ var focusNode = __webpack_require__(140);
 var getActiveElement = __webpack_require__(141);
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -12554,7 +12554,7 @@ var getActiveElement = __webpack_require__(141);
  */
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -12569,7 +12569,7 @@ var getActiveElement = __webpack_require__(141);
 !react ? invariant(false, 'ReactDOM was loaded before React. Make sure you load the React package before loading ReactDOM.') : void 0;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -13011,7 +13011,7 @@ var DOMProperty = {
 var DOMProperty_1 = DOMProperty;
 
 /**
- * Copyright (c) 2015-present, Facebook, Inc.
+ * Copyright (c) 2015-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -13026,7 +13026,7 @@ var ReactDOMComponentFlags = {
 var ReactDOMComponentFlags_1 = ReactDOMComponentFlags;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -13050,7 +13050,7 @@ var ReactTypeOfWork = {
 };
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -13296,7 +13296,7 @@ var ReactDOMComponentTree = {
 var ReactDOMComponentTree_1 = ReactDOMComponentTree;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -13354,7 +13354,7 @@ var ReactGlobalSharedState = {
 var ReactGlobalSharedState_1 = ReactGlobalSharedState;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -13387,7 +13387,7 @@ function getComponentName(instanceOrFiber) {
 var getComponentName_1 = getComponentName;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -14433,7 +14433,7 @@ function accumulateInto(current, next) {
 var accumulateInto_1 = accumulateInto;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -15078,7 +15078,7 @@ var ReactBrowserEventEmitter = _assign({}, ReactEventEmitterMixin_1, {
 var ReactBrowserEventEmitter_1 = ReactBrowserEventEmitter;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -15094,7 +15094,7 @@ var ReactDOMFeatureFlags = {
 var ReactDOMFeatureFlags_1 = ReactDOMFeatureFlags;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -15282,7 +15282,7 @@ function dangerousStyleValue(name, value, isCustomProperty) {
 var dangerousStyleValue_1 = dangerousStyleValue;
 
 /**
- * Copyright (c) 2016-present, Facebook, Inc.
+ * Copyright (c) 2016-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -15628,7 +15628,7 @@ var ReactInvalidSetStateWarningHook = {};
 var ReactInvalidSetStateWarningHook_1 = ReactInvalidSetStateWarningHook;
 
 /**
- * Copyright (c) 2016-present, Facebook, Inc.
+ * Copyright (c) 2016-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -16929,7 +16929,7 @@ var ReactDOMTextarea = {
 var ReactDOMFiberTextarea = ReactDOMTextarea;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -17007,7 +17007,7 @@ function assertValidProps(tag, props, getCurrentOwnerName) {
 var assertValidProps_1 = assertValidProps;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -17129,7 +17129,7 @@ var inputValueTracking = {
 var inputValueTracking_1 = inputValueTracking;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -17164,7 +17164,7 @@ function isCustomComponent(tagName, props) {
 var isCustomComponent_1 = isCustomComponent;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -17224,7 +17224,7 @@ var setInnerHTML = createMicrosoftUnsafeLocalFunction_1(function (node, html) {
 var setInnerHTML_1 = setInnerHTML;
 
 /**
- * Copyright (c) 2016-present, Facebook, Inc.
+ * Copyright (c) 2016-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -17383,7 +17383,7 @@ if (ExecutionEnvironment.canUseDOM) {
 var setTextContent_1 = setTextContent;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -17622,7 +17622,7 @@ var ReactDOMNullInputValuePropHook$1 = {
 var ReactDOMNullInputValuePropHook_1 = ReactDOMNullInputValuePropHook$1;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -19315,7 +19315,7 @@ var ReactDOMFrameScheduling = {
 };
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -19331,7 +19331,7 @@ var ReactFeatureFlags = {
 var ReactFeatureFlags_1 = ReactFeatureFlags;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -19854,7 +19854,7 @@ var ReactFiberStack = {
 
 // Trust the developer to only use this with a true check
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -20455,7 +20455,7 @@ var ReactFiberContext = {
 };
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -20837,7 +20837,7 @@ var ReactFiberErrorLogger = {
 };
 
 /**
- * Copyright (c) 2014-present, Facebook, Inc.
+ * Copyright (c) 2014-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -20925,7 +20925,7 @@ var ReactCoroutine = {
 };
 
 /**
- * Copyright (c) 2014-present, Facebook, Inc.
+ * Copyright (c) 2014-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -24453,7 +24453,7 @@ var ReactFiberHydrationContext = function (config) {
 };
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -25808,7 +25808,7 @@ var ReactFiberScheduler = function (config) {
 };
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -26307,7 +26307,7 @@ var ReactInputSelection = {
 var ReactInputSelection_1 = ReactInputSelection;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -26318,7 +26318,7 @@ var ReactInputSelection_1 = ReactInputSelection;
 var ReactVersion = '16.0.0';
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -26394,7 +26394,7 @@ findDOMNode._injectStack = function (fn) {
 var findDOMNode_1 = findDOMNode;
 
 /**
- * Copyright (c) 2014-present, Facebook, Inc.
+ * Copyright (c) 2014-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -27847,7 +27847,7 @@ var BeforeInputEventPlugin = {
 var BeforeInputEventPlugin_1 = BeforeInputEventPlugin;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -28141,7 +28141,7 @@ var ChangeEventPlugin = {
 var ChangeEventPlugin_1 = ChangeEventPlugin;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -28207,7 +28207,7 @@ SyntheticEvent_1.augmentClass(SyntheticUIEvent, UIEventInterface);
 var SyntheticUIEvent_1 = SyntheticUIEvent;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -28596,7 +28596,7 @@ SyntheticUIEvent_1.augmentClass(SyntheticFocusEvent, FocusEventInterface);
 var SyntheticFocusEvent_1 = SyntheticFocusEvent;
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -29739,7 +29739,7 @@ module.exports = ReactDOMFiberEntry;
 
 "use strict";
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -29783,7 +29783,7 @@ module.exports = hyphenateStyleName;
 
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -29817,7 +29817,7 @@ module.exports = hyphenate;
 
 "use strict";
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -29862,7 +29862,7 @@ module.exports = camelizeStyleName;
 
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -29897,7 +29897,7 @@ module.exports = camelize;
 
 
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -29912,7 +29912,7 @@ var performanceNow;
 /**
  * Detect if we can use `window.performance.now()` and gracefully fallback to
  * `Date.now()` if it doesn't exist. We need to support Firefox < 15 for now
- * because of Facebook's testing infrastructure.
+ * because of Authentication's testing infrastructure.
  */
 if (performance.now) {
   performanceNow = function performanceNow() {
@@ -29932,7 +29932,7 @@ module.exports = performanceNow;
 
 "use strict";
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -29958,7 +29958,7 @@ module.exports = performance || {};
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
@@ -30508,7 +30508,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 
 "use strict";
 /**
- * Copyright (c) 2013-present, Facebook, Inc.
+ * Copyright (c) 2013-present, Authentication, Inc.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.

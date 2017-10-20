@@ -78,6 +78,24 @@ const getUserFriends = async (id) => {
   return data.length;
 };
 
+const getPagePosts = async (page) => {
+  const query = {
+    url: `/${page}/posts`,
+    method: 'GET',
+    params: {
+      fields: 'full_picture,name,link,permalink_url,message,created_time'
+    }
+  };
+
+  try {
+    var data = await facebookAPI.fetchDataFB(query);
+  } catch (err) {
+    return err;
+  }
+
+  return data;
+};
+
 const FacebookActions = {
   //on app start we should get auth state
   async getAuthInfo() {
@@ -117,44 +135,15 @@ const FacebookActions = {
   },
 
   async fetchData(page) {
-    const query = {
-      url: `/${page}/posts`,
-      method: 'GET',
-      params: {
-        fields: 'full_picture,name,link,permalink_url,message,created_time'
-      }
-    }
+
 
     try {
-      var data = await facebookAPI.fetchDataFB(query);
+      var data = await getPagePosts(page);
     } catch (err) {
       return err;
     }
 
     return data;
-  },
-
-  async searchUser(username) {
-    const query = {
-      url: '/search',
-      method: 'GET',
-      params: {
-        q: `$${username}`,
-        type: 'user'
-      }
-    };
-
-    try {
-      var {data} = await facebookAPI.fetchDataFB(query);
-      var likes = await getUserLikes(data[0].id);
-    } catch (err) {
-      return err;
-    }
-
-    const [user] = data;
-    user.likes = likes;
-
-    return user;
   },
 
   async searchPage(page) {

@@ -9,7 +9,7 @@ import GameIcon from 'material-ui/svg-icons/hardware/gamepad';
 import MoodIcon from 'material-ui/svg-icons/social/mood';
 
 import './Navtab.less';
-import FacebookAuth from '../Facebook/Authentication';
+import FacebookAuth from '../Authentication/Authentication';
 import FacebookActions from '../../Actions/FacebookActions';
 
 class Navtab extends React.Component {

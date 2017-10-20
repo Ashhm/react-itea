@@ -33,7 +33,6 @@ class Popular extends React.Component {
 
   handleDataChange(page) {
     this.setState(()=> {
-      console.log('loading state');
       return {
         loading: true,
         data: [],
@@ -44,7 +43,6 @@ class Popular extends React.Component {
     FacebookActions.fetchData(page)
       .then(({data}) => {
         this.setState(() => {
-          console.log('fetching state');
           return {
             loading: false,
             error: false,
@@ -65,7 +63,7 @@ class Popular extends React.Component {
 
 
   render() {
-    console.log(this.state);
+    console.log(this.props.location);
     const {selected, data, loading} = this.state;
     return (
       <div>
